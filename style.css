@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+html *{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+	font-family: 'Dosis', sans-serif;
+	background-image: url("fundo2.jpg");
+}
+
+#titulo{
+	background-image: url("titulo3.jpg");
+    padding: 40px 40px;
+    color: #ffffff;
+    text-shadow: 4px 4px 2px #222222;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 56px;
+}
+
+#titulo2{
+	background-image: url("titulo4.jpg");
+    padding: 40px 40px;
+    color: #ffffff;
+    text-shadow: 4px 4px 2px #222222;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 56px;
+}
+
+#titulo3{
+	background-image: url("titulo5.jpg");
+    padding: 40px 40px;
+    color: #ffffff;
+    text-shadow: 4px 4px 2px #222222;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 56px;
+}
+
+#titulo4{
+	background-image: url("titulo6.jpg");
+    padding: 40px 40px;
+    color: #ffffff;
+    text-shadow: 4px 4px 2px #222222;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 56px;
+}
+
+#subtitulo1{
+	 margin-top: 36px;
+	 margin-bottom: 8px;
+
+}
+#subtitulo2{
+	margin-top: 36px;
+	margin-bottom: 8px;
+
+}
+
+h3{
+	font-size: 24px;
+	text-align: center;
+	color: black;
+
+}
+
+a:link{
+	text-decoration:none;
+	color: black;
+}
+
+p{
+	margin-top: 16px;
+	text-align: justify;
+	font-size: 18px;
+}
+	
+img {
+	max-width: 100%;
+	border-radius: 16px;
+}
+
+.imagem-pags{
+	margin-top: 24px;
+	margin-bottom: 24px;
+	box-shadow: 5px 5px 5px #696969;
+	border-radius: 16px;
+}
+
+main{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 18px;
+}
+
+.box{
+	border: 4px solid rgb(118, 197, 201);
+	border-radius: 16px;
+	padding: 18px;
+}
+
+#abertura{
+	grid-column: 1 / 4;
+	border: none;
+}
+
+footer {
+	background-image: url("footer1.jpg");
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 24px;
+	padding: 4px;
+}
+
+a.link_footer{
+	text-decoration: none;
+	color: black;
+	
+}
+
+div{
+	text-align: center;
+}
+
+.texto2{
+	margin: 0 auto;
+		
+}
+form{
+	text-align: right;
+	margin-right: 24px;
+}
+iframe{
+	padding: 24px;
+}
+
+
